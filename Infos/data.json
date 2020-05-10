@@ -1,0 +1,473 @@
+{
+	"file-preffix": "",
+	"file-suffix": "-ATEOW",
+	"output-folder": "output",
+	"nations":
+	{
+		"Numenor":
+		{
+			"name_comment": "Display name of the nation.",
+			"name": "Numenor",
+			"adjective": "Numenorean",
+			"plural": "Numenoreans",
+			"color_comment": "Color of the nation. Should be in RGB format.",
+			"color": "#5396d8",
+			"founder_comment": "Founder of the family. Useful if the first ruler has a sibling.",
+			"founder": "Isildur",
+			"first-ruler_comment": "First ruler of the nation of the nation.",
+			"first-ruler": "Isildur",
+			"story": "This is a great nation.",
+			"start":
+			{
+				"tech": ["divination", "stonecutting", "drama"],
+				"unit":
+				{
+					"type": "warrior",
+					"value": "1"
+				},
+				"first-build":
+				{
+					"type_comment": "Needs full name because it can be building too.",
+					"type": "unit_settler",
+					"percent": "40"
+				},
+				"law":
+				{
+					"type": "order",
+					"value": "primogeniture"
+				}
+			},
+			"families":
+			{
+				"Bonaparte":
+				{
+					"name": "Bonaparte",
+					"plural": "Bonapartes",
+					"adjective": "Bonaparte",
+					"class": "Patrons",
+					"color": "#0d6793"
+				},
+				"Belgium-Orange-Nassau-Weilburg":
+				{
+					"name": "Belgium-Orange-Nassau-Weilburg",
+					"plural": "Belgium-Orange-Nassau-Weilburgs",
+					"adjective": "Belgium-Orange-Nassau-Weilburg",
+					"class": "Sages",
+					"color": "#dd9335"
+				},
+				"Gericault":
+				{
+					"name": "Gericault",
+					"plural": "Gericault",
+					"adjective": "Gericault",
+					"class": "Riders",
+					"color": "#94b3ae"
+				},
+				"Beaumont":
+				{
+					"name": "Beaumont",
+					"plural": "Beaumont",
+					"adjective": "Beaumont",
+					"class": "Hunters",
+					"color": "#e96060"
+				}
+			},
+			"shrines":
+			{
+				"Eru Iluvatar":
+				{
+					"deity": "Eru Iluvatar",
+					"type": "hearth"
+				},
+				"the Star Prince":
+				{
+					"deity": "the Star Prince",
+					"type": "sun"
+				},
+				"Aslan":
+				{
+					"deity": "Aslan",
+					"type": "kingship"
+				},
+				"Nemo":
+				{
+					"deity": "Nemo",
+					"type": "water"
+				}
+			},
+			"units":
+			{
+				"Arnorian Paladin":
+				{
+					"name": "Arnorian Paladin",
+					"singular": "an Arnorian Paladin",
+					"plural": "Arnorian Paladins",
+					"family": "Patrons",
+					"rank": "1",
+					"tech1": "HUSBANDRY",
+					"tech2": "RAMPARTS",
+					"icon": "HORSEMAN"
+				},
+				"Gondorian Paladin":
+				{
+					"name": "Gondorian Paladin",
+					"singular": "a Gondorian Paladin",
+					"plural": "Gondorian Paladins",
+					"family": "Patrons",
+					"rank": "2",
+					"tech1": "STRATEGY",
+					"tech2": "STIPPURS",
+					"icon": "CATAPHRACT"
+				}
+			},
+			"assets_comment": "Different visual assets of the nation.",
+			"assets":
+			{
+				"template_comment": "Template is the only mandatory element. If you leave out the other values, they will be filled up by the this value.",
+				"template": "Rome",
+				"crest": "Rome",
+				"capital": "Rome",
+				"city": "Rome",
+				"urban": "Rome",
+				"background": "Assyria",
+				"portraits_comment": "Character potraits. It can also be a list if you want different ones from multiple nations.",
+				"portraits": "Greece"
+			},
+			"mapelements_comment": "Naming of map elements.",
+			"mapelements":
+			{
+				"volcano": ["Orodruin", "?"],
+				"mountainrange": ["The Alps", "?"],
+				"peak": ["?", "?"],
+				"river": ["Seine", "River Shribble", "Loire", "Rhin"],
+				"forest": ["Mirkwood", "?"],
+				"heath": ["Calormen", "?"],
+				"plain": ["?", "?"],
+				"desert": ["?", "?"],
+				"plateau": ["?", "?"],
+				"valley": ["?", "?"],
+				"ocean": ["Atlantic Ocean", "Eastern Ocean"],
+				"sea": ["Belegaer", "?"],
+				"bay": ["Bay of Belfalas", "?"],
+				"lake": ["?", "?"],
+				"island": ["Corsica", "Atlantis", "Iron Islands", "Madagascar"]
+			},
+			"names":
+			{
+				"male":	["Édouard", "Émile", "Éomer", "Éric", "Étienne", "Abbé Faria", "Abraracourcix", "Adamaď", "Adrien", "Aimery", "Aiwendil", "Alain", "Alatar", "Albert", "Aldarion", "Alexandre", "Alexis", "Alphonse", "Amandil", "Amaury", "Amédée", "Amroth", "Anárion", "André", "Anthony", "Antoine", "Arador", "Aragorn", "Aramis", "Arathorn", "Arnaud", "Arnault", "Aronnax", "Arthur", "Arvedui", "Astérix", "Atanamir", "Atanatar", "Athos", "Aubry", "Axel", "Azaghâl", "Balin", "Bandobras", "Barahir", "Barbicane", "Bard", "Barthélémi", "Baudouin", "Beaufort", "Beleg", "Benjamin", "Benoît", "Bëor", "Beorn", "Beregond", "Beren", "Bérenger", "Bernard", "Bertrand", "Bifur", "Bilbon", "Bill", "Blaise Pascal", "Bofur", "Bombur", "Bór", "Boromir", "Brandir", "Bree", "Brego", "Bruno", "Caderousse", "Cambacérès", "Camille Desmoulins", "Caspian", "Cédric", "Celebrimbor", "Celeborn", "Charles", "Chasseur-de-Truffes", "Chirac", "Christian", "Christophe", "Cirion", "Ciryatan", "Claude", "Clemenceau", "Clément", "Clerval", "Clopin", "Clotaire", "Clovis", "Coluche", "Condorcet", "Conseil", "Coriakin", "Cousteau", "Curumo", "Cyrus", "Dakkar", "D'Artagnan", "Dáin", "Damien", "Daniel", "Dantès", "Danton", "David", "De Gaulle", "Denethor", "Denis", "Descartes", "Didier", "Digory", "Dior", "Dominique", "Dori", "Drinian", "Durkheim", "Durin", "Dwalin", "Eärendil", "Eärnil", "Eärnur", "Ecthelion", "Edmond", "Egalmoth", "Eldacar", "Eldarion", "Elendil", "Elfhelm", "Elrond", "Elros", "Emile", "Emmanuel", "Enjolras", "Enzo", "Eorl", "Erkenbrand", "Erik", "Eudes", "Eustace", "Fabien", "Fabrice", "Fantasio", "Faramir", "Fauchelevent", "Fëanor", "Felaróf", "Félix Faure", "Fernand", "Fíli", "Finarfin", "Fingolfin", "Fingon", "Flopin", "Florian", "Franck", "François", "Frankenstein", "Frédégar", "Frédéric", "Frodon", "Frollo", "Gabriel", "Galdor", "Gandalf", "Gargamel", "Gaston", "Gauthier", "Gavroche", "Geoffroy", "Georges", "Gérard", "Géraud", "Gerontius", "Gilbert", "Gil-galad", "Gilles", "Gimli", "Glóin", "Glorfindel", "Godefroy", "Gringoire", "Gripoil", "Grougaloragran", "Guillaume", "Guy", "Gwaihir", "Haddock", "Halbarad", "Haldir", "Háma", "Harbert", "Helm", "Henri", "Herbert", "Hervé", "Horn", "Huan", "Hugo", "Huor", "Húrin", "Hyarmendacil", "Idéfix", "Imrahil", "Isildur", "Jacques", "Jacques Yves", "Jaspert", "Javert", "Jean", "Jean-Baptiste", "Jean-Claude", "Jean-Luc", "Jean-Pierre", "Jeanvaljean", "Jérémy", "Jérôme", "Joël", "Joseph", "Jules", "J. T. Maston", "Jules César", "Julien", "Kevin", "Kíli", "Lafayette", "Lanfeust", "Laurent", "Legolas", "Lidenbrock", "Léon", "Léonard", "Louis", "Lucas", "Lucien", "Ludovic", "Mablung", "Maedhros", "Malefique", "Marc", "Marcel", "Marquais", "Mathieu", "Maurice", "Maxime", "Meriadoc", "Michel", "Minastir", "Mitterrand", "Mohammed", "Molière", "Montaigne", "Montesquieu", "Morrel", "Myriel", "Napoléon", "Ned Land", "Némo", "Nicholl", "Nicolas", "Nivacrin", "Noirtier de Villefort", "Nori", "Numérobis", "Obélix", "Ocatarinetabellatchitchix", "Óin", "Olivier", "Olórin", "Ori", "Orodreth", "Orophin", "Ostoher", "Paladin", "Pallando", "Panoramix", "Passepartout", "Pasteur", "Patrick", "Paul", "Pencroff", "Peregrďn", "Peter", "Phileas Fogg", "Philippe", "Phśbus", "Picsou", "Pierre", "Pompidou", "Pontmercy", "Porthos", "Puzzle", "Quasimodo", "Quentin", "Radagast", "Ramandu", "Raoul", "Raphaël", "Raymond", "Raynaud", "Renaud", "Renart", "René", "Richard", "Rillian", "Ripitchip", "Roland", "Robert", "Robin", "Robur", "Roger", "Roheryn", "Romain", "Rousseau", "Ruel", "Saint-Just", "Samsagace", "Sartre", "Serge", "Shasta", "Siéyès", "Simon", "Sméagol", "Sodom", "Spirou", "Stéphane", "Sylvain", "Sylvebarbe", "Thengel", "Théo", "Théoden", "Théodred", "Thibault", "Thierry", "Thingol", "Thomas", "Thorgal", "Thorin", "Thorondor", "Thráin", "Thranduil", "Thrór", "Tintin", "Tirian", "Titeuf", "Tocqueville", "Tom Bombadil", "Tréville", "Tristepin", "Trompillon", "Tumnus", "Tuor", "Turgon", "Túrin", "Valacar", "Vercingétorix", "Valéry Giscard d'Estaing", "Victor", "Vincent", "Voltaire", "Waldman", "Walton", "Xavier", "Yugo", "Yves", "Zidane", "Zinédine", "Zola"],
+				"female": ["Éléonore", "Élodie", "Émilie", "Éowyn", "Aaricia", "Adèle", "Aerin", "Agathe", "Agnès", "Alice", "Alberta", "Aliénor", "Alix", "Amalie", "Amarië", "Amélie", "Anaďs", "Anastasie", "Ancalimë", "Andrée", "Anne", "Annick", "Annie", "Antoinette", "Aouda", "Aredhel", "Arwen", "Audrey", "Aurélie", "Aurore", "Baie d'Or", "Béatrice", "Belladonna", "Benoîte", "Bérengère", "Bernadette", "Blanche", "Bonemine", "Brigitte", "Camille", "Caroline", "Catherine", "Cécile", "Celebrían", "Céline", "Cendrillon", "Chantal", "Charlotte", "Chloé", "Christelle", "Christine", "Cixi", "Claire", "Claudette", "Claudine", "Cléopâtre", "Clotilde", "Colette", "Constance", "Corinne", "Cosette", "Dalida", "Danielle", "Delphine", "Denise", "Dís", "Dominique", "Eärwen", "Edith", "Elanor", "Elely", "Elenwë", "Eliane", "Elisabeth", "Elise", "Elwing", "Emma", "Emmanuelle", "Éponine", "Erendis", "Esméralda", "Estella", "Eugénie", "Eve", "Evangelyne", "Evelyne", "Falbala", "Fantine", "Fatima", "Finduilas", "Fleur-de-Lys", "Florence", "Françoise", "Galadriel", "Geneviève", "Germaine", "Georgette", "Gilraen", "Ginette", "Gisèle", "Gwendolen", "Gwendolyne", "Haleth", "Haydée", "Hélène", "Helen", "Héloise", "Henriette", "Hermione", "Hild", "Hwin", "Idril", "Indis", "Ioreth", "Isabelle", "Jacqueline", "Javotte", "Jeanne", "Jeanne d'Arc", "Jeannine", "Jill", "Joséphine", "Josette", "Josiane", "Judith", "Julie", "Julienne", "Juliette", "Justine", "Karine", "Laetitia", "Lalaith", "Laura", "Laurence", "Laurette", "Léa", "Lilliandil", "Lobelia", "Lothíriel", "Louise", "Louve", "Lucie", "Lucienne", "Lucy", "Lúthien", "Madeleine", "Malefique", "Manon", "Marcelle", "Marine", "Marion", "Margot", "Marguerite", "Maria", "Marie", "Marie-Antoinette", "Marie-Curie", "Marie-Louise", "Marie-Thérèse", "Martine", "Mathilde", "Meg", "Mélanie", "Melian", "Mélusine", "Mercédès", "Michèle", "Miranda", "Míriel", "Mireille", "Monique", "Nadia", "Nadine", "Nathalie", "Nerdanel", "Nicole", "Nienor", "Níniel", "Odette", "Patricia", "Paulette", "Pauline", "Polly", "Primula", "Prunaprismia", "Raymonde", "Renée", "Rían", "Rose", "Sandrine", "Sarah", "Ségolène", "Silmarien", "Simone", "Solène", "Sophie", "Stéphanie", "Suzanne", "Sybille", "Sylvie", "Telperien", "Théodwyn", "Thérèse", "Tinúviel", "Vairë", "Valérie", "Vanimeldë", "Varda", "Véronique", "Virginie", "Yavanna", "Yvette", "Yvonne"],
+				"city":	["Paris", "Marseille", "Luxembourg", "Lyon", "Poitiers", "Brussels", "Bordeaux", "Amsterdam", "Dijon", "Antwerp", "Montpellier", "Lille", "Toulouse", "Nice", "Utrecht", "Strasbourg", "Annecy", "Gent", "Villeurbanne", "Le Havre", "Eindhoven"]
+			}
+		},
+		"Yugoslavia":
+		{
+			"name_comment": "Display name of the nation.",
+			"name": "Yugoslavia",
+			"adjective": "Yugoslavian",
+			"plural": "Yugoslavians",
+			"color_comment": "Color of the nation. Should be in RGB format.",
+			"color": "#1e6f11",
+			"founder_comment": "Founder of the family. Useful if the first ruler has a sibling.",
+			"founder": "Viktor",
+			"first-ruler_comment": "First ruler of the nation of the nation.",
+			"first-ruler": "Edmund",
+			"story": "This is a great nation.",
+			"start":
+			{
+				"tech": ["ironworking", "trapping", "military drill"],
+				"unit":
+				{
+					"type": "warrior",
+					"value": "1"
+				},
+				"first-build":
+				{
+					"type_comment": "Needs full name because it can be building too.",
+					"type": "unit_settler",
+					"percent": "40"
+				},
+				"law":
+				{
+					"type": "order",
+					"value": "primogeniture"
+				}
+			},
+			"families":
+			{
+				"Karadziordziewic":
+				{
+					"name": "Karadziordziewic",
+					"plural": "Karadziordziewics",
+					"adjective": "Karadziordziewic",
+					"class": "Clerics",
+					"color": "#c6363c"
+				},
+				"Broben":
+				{
+					"name": "Broben",
+					"plural": "Brobens",
+					"adjective": "Broben",
+					"class": "Landowners",
+					"color": "#0000ff"
+				},
+				"Cankow":
+				{
+					"name": "Cankow",
+					"plural": "Cankows",
+					"adjective": "Cankow",
+					"class": "Riders",
+					"color": "#f2cb56"
+				},
+				"Andrijasevic":
+				{
+					"name": "Andrijasevic",
+					"plural": "Andrijasevics",
+					"adjective": "Andrijasevic",
+					"class": "Traders",
+					"color": "#994040"
+				}
+			},
+			"shrines":
+			{
+				"the Triumvirate":
+				{
+					"deity": "the Triumvirate",
+					"type": "kingship"
+				},
+				"the Blessed":
+				{
+					"deity": "the Prophet",
+					"type": "healing"
+				},
+				"the Prophet":
+				{
+					"deity": "the Gatekeeper",
+					"type": "underworld"
+				},
+				"Tito":
+				{
+					"deity": "Tito",
+					"type": "fire"
+				}
+			},
+			"units":
+			{
+				"Arnorian Paladin":
+				{
+					"name": "Bulgarian Gusar",
+					"singular": "a Bulgarian Gusar",
+					"plural": "Bulgarian Gusars",
+					"family": "Riders",
+					"rank": "1",
+					"tech1": "ARISTOCRACY",
+					"tech2": "MONASTICISM",
+					"icon": "PALTON_CAVALRY"
+				},
+				"Gondorian Paladin":
+				{
+					"name": "Serbian Gusar",
+					"singular": "a Serbian Gusar",
+					"plural": "Serbian Gusars",
+					"family": "Riders",
+					"rank": "2",
+					"tech1": "STRATEGY",
+					"tech2": "STIPPURS",
+					"icon": "CATAPHRACT_ARCHER"
+				}
+			},
+			"assets_comment": "Different visual assets of the nation.",
+			"assets":
+			{
+				"template_comment": "Template is the only mandatory element. If you leave out the other values, they will be filled up by the this value.",
+				"template": "Rome",
+				"crest": "Babylonia",
+				"capital": "Rome",
+				"city": "Rome",
+				"urban": "Rome",
+				"background": "Carthage",
+				"portraits_comment": "Character potraits. It can also be a list if you want different ones from multiple nations.",
+				"portraits": "Greece"
+			},
+			"mapelements_comment": "Naming of map elements.",
+			"mapelements":
+			{
+				"volcano": ["?", "?"],
+				"mountainrange": ["?", "?"],
+				"peak": ["?", "?"],
+				"river": ["?", "?"],
+				"forest": ["?", "?"],
+				"heath": ["?", "?"],
+				"plain": ["?", "?"],
+				"desert": ["?", "?"],
+				"plateau": ["?", "?"],
+				"valley": ["?", "?"],
+				"ocean": ["?", "?"],
+				"sea": ["?", "?"],
+				"bay": ["?", "?"],
+				"lake": ["?", "?"],
+				"island": ["?", "?"]
+			},
+			"names":
+			{
+				"male":	["Aldimir", "Asen", "Adam", "Aleksandar", "Andrej", "Antonije", "Berbat", "Blaz", "Boleslav", "Borna", "Branimir", "Budimir", "Blagoje", "Boris", "Danilo", "Djordje", "Dmitar", "Dobroslav", "Dragan", "Drago", "Dragutin", "David", "Edmund", "Emil", "Filip", "Franjo", "Gavrilo", "Godimir", "Goran", "Grgur", "Ilija", "Ivan", "Josif", "Josip", "Jovan", "Jevrem", "Kasjan", "Konstantin", "Krsto", "Kosmin", "Lazar", "Ljudevit", "Luka", "Marko", "Martin", "Matija", "Mihailo", "Mihovil", "Milorad", "Milutin", "Mircea", "Miroslav", "Mislav", "Nenad", "Nikodim", "Nikola", "Ninoslav", "Petar", "Pavle", "Porin", "Prvoslav", "Radoslav", "Rastko", "Ratomir", "Roman", "Serapion", "Simeon", "Sinisa", "Slavko", "Slobodan", "Stefan", "Sava", "Teodosije", "Trajan", "Todor", "Uros", "Visarion", "Vladimir", "Vladislav", "Vlastimir", "Vuk", "Vukan", "Vukasin", "Vukoman", "Viktor", "Vikentije", "Zoran", "Zvonimir", "Zdik", "Gerard"],
+				"female": ["Agata", "Andjela", "Antonija", "Barbara", "Bastina", "Biljana", "Bistrina", "Bojana", "Branimira", "Casna", "Chasna", "Desislava", "Dejana", "Dragana", "Dragoslava", "Dubravka", "Duga", "Dusica", "Elena", "Hicela", "Gordana", "Grana", "Grubana", "Jagoda", "Jelena", "Jovana", "Jovanka", "Karika", "Karolina", "Keratza", "Ljubica", "Lovorka", "Luka", "Majka", "Malina", "Marija", "Medeni", "Meki", "Milinka", "Miljana", "Milka", "Miriti", "Mirjana", "Mudary", "Mudra", "Nada", "Nadanje", "Namena", "Neda", "Radica", "Zdenka"],
+				"city":	["Beograd", "Zagreb", "Sofia", "Sarajevo", "Ljubljana", "Dubrovnik", "Durrës", "Novi Sad", "Split", "Niš", "Maribor", "Podgorica", "Kragujevac", "Rijeka", "Plovdiv", "Banja Luka", "Osijek", "Varna", "Tuzla", "Arta", "Burgas"]
+			}
+		},
+		"Britannia":
+		{
+			"name_comment": "Display name of the nation.",
+			"name": "Britannia",
+			"adjective": "Brywtysh",
+			"plural": "Brywtyshes",
+			"color_comment": "Color of the nation. Should be in RGB format.",
+			"color": "#ac1616",
+			"founder_comment": "Founder of the family. Useful if the first ruler has a sibling.",
+			"founder": "Winnifred",
+			"first-ruler_comment": "First ruler of the nation of the nation.",
+			"first-ruler": "Winnifred",
+			"story": "This is a great nation.",
+			"start":
+			{
+				"tech": ["divination", "administration", "sovereignty"],
+				"unit":
+				{
+					"type": "slinger",
+					"value": "1"
+				},
+				"first-build":
+				{
+					"type_comment": "Needs full name because it can be building too.",
+					"type": "unit_settler",
+					"percent": "40"
+				},
+				"law":
+				{
+					"type": "order",
+					"value": "primogeniture"
+				}
+			},
+			"families":
+			{
+				"Strongboar":
+				{
+					"name": "Strongboar",
+					"plural": "Strongboars",
+					"adjective": "Strongboar",
+					"class": "Statesmen",
+					"color": "#811749"
+				},
+				"Cyflymarian":
+				{
+					"name": "Cyflymarian",
+					"plural": "Cyflymarians",
+					"adjective": "Cyflymarian",
+					"class": "Artisans",
+					"color": "#fed800"
+				},
+				"Wallace":
+				{
+					"name": "Wallace",
+					"plural": "Wallaces",
+					"adjective": "Wallace",
+					"class": "Champions",
+					"color": "#0d6793"
+				},
+				"Russel":
+				{
+					"name": "Russel",
+					"plural": "Russels",
+					"adjective": "Russel",
+					"class": "Landowners",
+					"color": "#cc0001"
+				}
+			},
+			"shrines":
+			{
+				"the Queen":
+				{
+					"deity": "the Queen",
+					"type": "kingship"
+				},
+				"Nuit":
+				{
+					"deity": "Nuit",
+					"type": "love"
+				},
+				"Ra Hoor Khuit":
+				{
+					"deity": "Ra Hoor Khuit",
+					"type": "war"
+				},
+				"Hadit":
+				{
+					"deity": "Hadit",
+					"type": "hearth"
+				}
+			},
+			"units":
+			{
+				"Highlander Bowman":
+				{
+					"name": "Highlander Longbowman",
+					"singular": "an Highlander Longbowman",
+					"plural": "Highlander Longbowman",
+					"family": "Statesmen",
+					"rank": "1",
+					"tech1": "TRAPPING",
+					"tech2": "COMPOSITE_BOW",
+					"icon": "LONGBOWMAN"
+				},
+				"Red Coat":
+				{
+					"name": "Red Coat",
+					"singular": "a Red Coat",
+					"plural": "Red Coats",
+					"family": "Statesmen",
+					"rank": "2",
+					"tech1": "CITIZENSHIP",
+					"tech2": "BODKIN_ARROW",
+					"icon": "PIKEMAN"
+				}
+			},
+			"assets_comment": "Different visual assets of the nation.",
+			"assets":
+			{
+				"template_comment": "Template is the only mandatory element. If you leave out the other values, they will be filled up by the this value.",
+				"template": "Rome",
+				"crest": "Egypt",
+				"capital": "Rome",
+				"city": "Rome",
+				"urban": "Rome",
+				"background": "Greece",
+				"portraits_comment": "Character potraits. It can also be a list if you want different ones from multiple nations.",
+				"portraits": "Greece"
+			},
+			"mapelements_comment": "Naming of map elements.",
+			"mapelements":
+			{
+				"volcano": ["?", "?"],
+				"mountainrange": ["?", "?"],
+				"peak": ["?", "?"],
+				"river": ["?", "?"],
+				"forest": ["?", "?"],
+				"heath": ["?", "?"],
+				"plain": ["?", "?"],
+				"desert": ["?", "?"],
+				"plateau": ["?", "?"],
+				"valley": ["?", "?"],
+				"ocean": ["?", "?"],
+				"sea": ["?", "?"],
+				"bay": ["?", "?"],
+				"lake": ["?", "?"],
+				"island": ["?", "?"]
+			},
+			"names":
+			{
+				"male":	["Accolon", "Adam", "Adda", "Adgar", "Adran", "Adűnakhôr", "Aeddan", "Agramhain", "Ajax", "Alan", "Albert", "Albus", "Alcarin", "Aldarion", "Aldwr", "Aleister", "Alexander", "Alfred", "Ancalimon", "Amandil", "Anárion", "Anducal", "Angus", "Andrew", "Anselm", "Arncytel", "Arnold", "Arthfoddw", "Arthur", "Arthwr", "Arthws", "Arthwys", "Atanamir", "Attwell", "Aubrey", "Aulendil", "Awst", "Baldrick", "Balian", "Balthere", "Barnaby", "Bartle", "Bedimhere", "Bedwyr", "Belzagar", "Beorhtfrith", "Berthgwyn", "Berthwallt", "Bleiddud", "Borogomhe", "Bran", "Branwaladr", "Brelan", "Breunor", "Brian", "Brillig", "Bruin", "Brum", "Brutus", "Cadw", "Cadwal", "Cadwaladr", "Cadwallon", "Cadwared", "Cadwgan", "Cadwr", "Capald", "Calmacil", "Carloman", "Catigern", "Cedrick", "Charles", "Chilperick", "Christopher", "Ciriyatan", "Claudas", "Colin", "Constantine", "Craddock", "Cynan", "Cynddelw", "Cyndyddan", "Cynddylan", "Cyndeyrn", "Cynfael", "Cynfarch", "Cynfawr", "Cynfeddw", "Cynfelyn", "Cynfran", "Cynfyn", "Cyngar", "Cyngen", "Cynwallon", "Cynwared", "Cynwrig", "Cynwyd", "Cynyr", "Cysteint", "Dagobert", "Dagonet", "Darius", "Damhid", "Deheuwant", "Dinadan", "Dio", "Dorian", "Douglas", "Dwyfan", "Dyfnwallon", "Eadrćd", "Eadsige", "Eadulf", "Eadweald", "Eadweard", "Ector", "Edern", "Edmund", "Ednywain", "Edward", "Elros", "Elyan", "Eric", "Errol", "Eustace", "Ewyas", "Fergus", "Ffernfael", "Ffilip", "Ffransis", "Ffriog", "Ffwdwr", "Firmin", "Fragan", "Freddie", "Frederick", "Frobisher", "Fry", "Fulk", "Fychan", "Fyrsil", "Gallahad", "Gamon", "Gann", "Gareth", "Geoffrey", "George", "Geraint", "Gerald", "Gilbert", "Gildas", "Giles", "Gimilkhâd", "Gimilzôr", "Godfrey", "Gordon", "Gregory", "Griffith", "Griflet", "Gringolet", "Gruffydd", "Gryphon", "Guts", "Guy", "Gwenwynwyn", "Gwidyr", "Gwilym", "Gwrfawr", "Gwrfoddw", "Gwrgant", "Gwrgeneu", "Gwyn", "Gyre", "Hallatan", "Harper", "Harry", "Hartnell", "Hamhelock", "Hawys", "Hector", "Hengist", "Henry", "Herewallt", "Hiram", "Horatio", "Hugh", "Humphrey", "Hurndall", "Ian", "Idwal", "Idwallon", "Illiam", "Isaac", "Isambard", "Isilmo", "Ishmael", "James", "Jekyll", "Jocelyn", "Joffrey", "John", "Jonathan", "Jordan", "Joseph", "Julian", "Keith", "Lancelot", "Laurence", "Lelouch", "Lesland", "Lionel", "Llew", "Llyr", "Llywarch", "Lomharck", "Lucan", "Lucius", "Ludomhick", "Lupus", "Malcolm", "Maelgwn", "Maleagant", "Manfield", "Manxome", "Mark", "Marmaduke", "Martin", "Matthew", "Maurice", "Meldrick", "Meneldur", "Mercury", "Michael", "Minastir", "Meical", "Morgan", "Much", "Mwyn", "Myrddin", "Nathan", "Nelson", "Nennius", "Neddard", "Nicholas", "Nolondil", "Nowy", "Nynniaw", "Oberon", "Olimher", "Outgrabe", "Owain", "Owen", "Palantir", "Padrig", "Paul", "Pelleas", "Pellinore", "Pepin", "Percimhal", "Peredyr", "Pertwee", "Peter", "Pharazôn", "Philip", "Phineas", "Pyr", "Ralph", "Randolph", "Reginald", "Rhiwal", "Richard", "Rigby", "Ringo", "Robert", "Robin", "Roger", "Ronald", "Rowland", "Roy", "Rubeus", "Ruddigore", "Rudyard", "Rugbert", "Sagramore", "Sakalthôr", "Samwel", "Sawyl", "Scathelock", "Scott", "Semherus", "Sherlock", "Simon", "Soronto", "Spike", "Steffen", "Stephen", "Stinian", "Sullimhan", "Súrion", "Sylmhester", "Tarrant", "Tegonwy", "Tegwyd", "Teignmouth", "Telemmaitë", "Tennant", "Thaddeus", "Theobald", "Theophilus", "Thomas", "Tiberius", "Tristan", "Tudwal", "Tulgey", "Uriens", "Uther", "Mhaisey", "Mhardamir", "Mhincent", "Mhictor", "Waleran", "Walter", "Will", "William", "Wilbert", "Winston", "Yaffle", "Ysfael", "Zimrathôn"],
+				"female": ["Abigale", "Ada", "Adela", "Adella", "Adelaide", "Aelwyd", "Aeronwen", "Agnes", "Agresizia", "Ailinel", "Alice", "Almarian", "Almiel", "Almyra", "Amice", "Ancalimë", "Angela", "Anne", "Antimony", "Aphrodite", "Amheline", "Beatrice", "Belle", "Blanche", "Blodwen", "Boudica", "Brangaine", "Caelia", "Caprice", "Caska", "Catherine", "Cecilia", "Charity", "Clara", "Clementina", "Cleonie", "Constance", "Cordelia", "Creirwy", "Cynthia", "Dahlia", "Danhadlwen", "Dindrane", "Dorothy", "Edith", "Edwina", "Ela", "Elaine", "Eleanor", "Elinor", "Elizabeth", "Elspeth", "Elmhira", "Elys", "Emma", "Enide", "Erendis", "Erina", "Esther", "Eudora", "Euronwy", "Emhaine", "Fay", "Felyssa", "Fflur", "Fidelia", "Frances", "Frideswide", "Georgia", "Geraldine", "Gloriana", "Guinemhere", "Gwen", "Gwenasedd", "Gwendoline", "Gwenfrewi", "Gwenhwyfach", "Gwenhwyfar", "Gwenllian", "Gwenwyn", "Gwerfyl", "Gwladys", "Hannah", "Hazel", "Hawise", "Hermione", "Helen", "Hester", "Holly", "Honoria", "Hortense", "Igraine", "Irma", "Isabel", "Isabella", "Isabelle", "Iseult", "Isilmë", "Jane", "Jessamine", "Joan", "Joanna", "Joanne", "Johanne", "Josephine", "Judith", "Juliana", "Juliet", "Kate", "Laudine", "Lenore", "Lettice", "Lorraine", "Lowry", "Lucy", "Lunete", "Lynette", "Lyonesse", "Mahaut", "Margaret", "Marian", "Marwenna", "Mawd", "Mary", "Mathilda", "Matilda", "Maud", "Mildred", "Millicent", "Mimsy", "Miranda", "Morgause", "Newlyna", "Nightingale", "Nimue", "Nymphadora", "Olimhe", "Orgeluse", "Owena", "Parcenet", "Permelia", "Petra", "Philippa", "Philomena", "Phoebe", "Phyllis", "Preshea", "Prudence", "Ragnell", "Rhiaindrech", "Rhiainfelt", "Rhoda", "Rowena", "Rufina", "Sara", "Samantha", "Selina", "Sophronia", "Siân", "Silmariën", "Siwan", "Sybil", "Sybilla", "Tangwystl", "Theodosia", "Teresa", "Telperiën", "Mhanimeldë", "Mhardilmë", "Mhenus", "Mhertiline", "Mhictoria", "Mhimhiana", "Winnifred", "Ysbail", "Ystradwel", "Zylphia", "Zona"],
+				"city":	["Lwndyn","Ydenbwru","Dunpadrig","Llankstar","Ioork","Laupwll","Oxfurdd","Laucester","Kynt","Gloukestyr","Lyncwyln","Llwds","Warkestyr","Dwblyn","Nnyntws","Brummagen","Warwyk","Phylipstown","Wecksfford","Glwgwle"]
+			}
+		}
+	}
+}

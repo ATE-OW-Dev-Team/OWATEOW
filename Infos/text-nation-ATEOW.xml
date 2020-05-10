@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+    <Entry>
+        <zType/>
+        <English/>
+    </Entry>
+    <Entry>
+        <zType>TEXT_NATION_NUMENOR</zType>
+        <English>Numenor~Numenorean~Numenoreans</English>
+    </Entry>
+    <Entry>
+        <zType>TEXT_NATION_YUGOSLAVIA</zType>
+        <English>Yugoslavia~Yugoslavian~Yugoslavians</English>
+    </Entry>
+    <Entry>
+        <zType>TEXT_NATION_BRITANNIA</zType>
+        <English>Britannia~Brywtysh~Brywtyshes</English>
+    </Entry>
+</Root>

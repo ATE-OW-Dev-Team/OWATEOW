@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Root>
+	<!--Assets/GameAssets/Resources/Infos/improvement.xml-->
+	<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in English-->
+	<Entry>
+		<zType/>
+		<English/>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_ARNORIAN_PALADIN</zType>
+		<English>Arnorian Paladin~an Arnorian Paladin~Arnorian Paladins</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_GONDORIAN_PALADIN</zType>
+		<English>Gondorian Paladin~a Gondorian Paladin~Gondorian Paladins</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_BULGARIAN_GUSAR</zType>
+		<English>Bulgarian Gusar~a Bulgarian Gusar~Bulgarian Gusars</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_SERBIAN_GUSAR</zType>
+		<English>Serbian Gusar~a Serbian Gusar~Serbian Gusars</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_HIGHLANDER_LONGBOWMAN</zType>
+		<English>Highlander Longbowman~an Highlander Longbowman~Highlander Longbowman</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_RED_COAT</zType>
+		<English>Red Coat~a Red Coat~Red Coats</English>
+	</Entry>
+</Root>

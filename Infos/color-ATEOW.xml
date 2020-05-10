@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+    <Entry>
+        <zType />
+        <zName />
+        <ColorClass />
+        <zHexValue />
+    </Entry>
+	<Entry>
+		<zType>COLOR_NATION_NUMENOR</zType>
+		<zName>Numenor</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#5396d8</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_NUMENOR_TEXT</zType>
+		<zName>Numenor Text</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#5396d8</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_NUMENOR_FAMILY_01</zType>
+		<zName>Numenor Family 01</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#0d6793</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_NUMENOR_FAMILY_01_TEXT</zType>
+		<zName>Numenor Family 01 Text</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#0d6793</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_NUMENOR_FAMILY_02</zType>
+		<zName>Numenor Family 02</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#dd9335</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_NUMENOR_FAMILY_02_TEXT</zType>
+		<zName>Numenor Family 02 Text</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#dd9335</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_NUMENOR_FAMILY_03</zType>
+		<zName>Numenor Family 03</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#94b3ae</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_NUMENOR_FAMILY_03_TEXT</zType>
+		<zName>Numenor Family 03 Text</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#94b3ae</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_NUMENOR_FAMILY_04</zType>
+		<zName>Numenor Family 04</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#e96060</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_NUMENOR_FAMILY_04_TEXT</zType>
+		<zName>Numenor Family 04 Text</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#e96060</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_YUGOSLAVIA</zType>
+		<zName>Yugoslavia</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#1e6f11</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_YUGOSLAVIA_TEXT</zType>
+		<zName>Yugoslavia Text</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#1e6f11</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_YUGOSLAVIA_FAMILY_01</zType>
+		<zName>Yugoslavia Family 01</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#c6363c</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_YUGOSLAVIA_FAMILY_01_TEXT</zType>
+		<zName>Yugoslavia Family 01 Text</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#c6363c</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_YUGOSLAVIA_FAMILY_02</zType>
+		<zName>Yugoslavia Family 02</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#0000ff</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_YUGOSLAVIA_FAMILY_02_TEXT</zType>
+		<zName>Yugoslavia Family 02 Text</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#0000ff</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_YUGOSLAVIA_FAMILY_03</zType>
+		<zName>Yugoslavia Family 03</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#f2cb56</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_YUGOSLAVIA_FAMILY_03_TEXT</zType>
+		<zName>Yugoslavia Family 03 Text</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#f2cb56</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_YUGOSLAVIA_FAMILY_04</zType>
+		<zName>Yugoslavia Family 04</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#994040</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_YUGOSLAVIA_FAMILY_04_TEXT</zType>
+		<zName>Yugoslavia Family 04 Text</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#994040</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_BRITANNIA</zType>
+		<zName>Britannia</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#ac1616</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_BRITANNIA_TEXT</zType>
+		<zName>Britannia Text</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#ac1616</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_BRITANNIA_FAMILY_01</zType>
+		<zName>Britannia Family 01</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#811749</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_BRITANNIA_FAMILY_01_TEXT</zType>
+		<zName>Britannia Family 01 Text</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#811749</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_BRITANNIA_FAMILY_02</zType>
+		<zName>Britannia Family 02</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#fed800</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_BRITANNIA_FAMILY_02_TEXT</zType>
+		<zName>Britannia Family 02 Text</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#fed800</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_BRITANNIA_FAMILY_03</zType>
+		<zName>Britannia Family 03</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#0d6793</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_BRITANNIA_FAMILY_03_TEXT</zType>
+		<zName>Britannia Family 03 Text</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#0d6793</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_BRITANNIA_FAMILY_04</zType>
+		<zName>Britannia Family 04</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#cc0001</zHexValue>
+	</Entry>
+	<Entry>
+		<zType>COLOR_NATION_BRITANNIA_FAMILY_04_TEXT</zType>
+		<zName>Britannia Family 04 Text</zName>
+		<ColorClass>COLORCLASS_NATIONS</ColorClass>
+		<zHexValue>#cc0001</zHexValue>
+	</Entry>
+</Root>

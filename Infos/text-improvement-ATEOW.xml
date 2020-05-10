@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Root>
+	<!--Assets/GameAssets/Resources/Infos/improvement.xml-->
+	<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in English-->
+	<Entry>
+		<zType/>
+		<English/>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_SHRINE_ERU_ILUVATAR</zType>
+		<English>Shrine of Eru Iluvatar</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_SHRINE_THE_STAR_PRINCE</zType>
+		<English>Shrine of the Star Prince</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_SHRINE_ASLAN</zType>
+		<English>Shrine of Aslan</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_SHRINE_NEMO</zType>
+		<English>Shrine of Nemo</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_SHRINE_THE_TRIUMVIRATE</zType>
+		<English>Shrine of the Triumvirate</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_SHRINE_THE_PROPHET</zType>
+		<English>Shrine of the Prophet</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_SHRINE_THE_GATEKEEPER</zType>
+		<English>Shrine of the Gatekeeper</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_SHRINE_TITO</zType>
+		<English>Shrine of Tito</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_SHRINE_THE_QUEEN</zType>
+		<English>Shrine of the Queen</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_SHRINE_NUIT</zType>
+		<English>Shrine of Nuit</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_SHRINE_RA_HOOR_KHUIT</zType>
+		<English>Shrine of Ra Hoor Khuit</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_SHRINE_HADIT</zType>
+		<English>Shrine of Hadit</English>
+	</Entry>
+</Root>
