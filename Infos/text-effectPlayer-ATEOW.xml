@@ -5,15 +5,15 @@
         <English/>
     </Entry>
     <Entry>
-        <zType>TEXT_EFFECTCITY_NATION_NUMENOR</zType>
+        <zType>TEXT_EFFECTPLAYER_NATION_NUMENOR</zType>
         <English>Numenor</English>
     </Entry>
     <Entry>
-        <zType>TEXT_EFFECTCITY_NATION_YUGOSLAVIA</zType>
+        <zType>TEXT_EFFECTPLAYER_NATION_YUGOSLAVIA</zType>
         <English>Yugoslavia</English>
     </Entry>
     <Entry>
-        <zType>TEXT_EFFECTCITY_NATION_BRITANNIA</zType>
+        <zType>TEXT_EFFECTPLAYER_NATION_BRITANNIA</zType>
         <English>Britannia</English>
     </Entry>
 </Root>

@@ -911,7 +911,7 @@ def generate_text_effect_player_file(data):
         <English/>
     </Entry>"""
     for i in data['nations']:
-        output = output + generate_text_effect_city(data['nations'][i]['name'])
+        output = output + generate_text_effect_player(data['nations'][i]['name'])
     output = output + "\n</Root>\n"
     file = open(f"{data['file-preffix']}text-effectPlayer{data['file-suffix']}.xml", "w")
     file.write(output)
