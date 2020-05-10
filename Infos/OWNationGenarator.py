@@ -50,6 +50,7 @@ def generate_nation(nation):
         <EffectPlayer>EFFECTPLAYER_NATION_{dashandupper(nation['name'])}</EffectPlayer>
         <MapElementNames>MAP_ELEMENT_NAMES_FOR_{dashandupper(nation['name'])}</MapElementNames>
         <iFirstBuildPercent>{dashandupper(nation['start']['first-build']['percent'])}</iFirstBuildPercent>
+		<bShowSurname>{'1' if nation['show-surename'] == 'true' else '0'}</bShowSurname>
         <aiStartUnit>
             <Pair>
                 <zIndex>UNIT_{dashandupper(nation['start']['unit']['type'])}</zIndex>

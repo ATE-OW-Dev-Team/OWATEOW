@@ -16,7 +16,8 @@
 			"founder": "Isildur",
 			"first-ruler_comment": "First ruler of the nation of the nation.",
 			"first-ruler": "Isildur",
-			"story": "This is a great nation.",
+			"story": "Some call them just tales, some call them madness, but the teachings of Novelism are the truth and they united our nation once more.\n\nLiving a normal and eventless life, one night the Star Prince came to me in my dream. He enlightened me that I am from the blood of Charlemagne and Aragorn Napoleon Bonaparte.\n\nSoon I became the ruler of Pas-de-Calais. I called all the Novelist warriors to my aid and with the assistance of Aslan and D'Artagnan, we made all the lord of Gondor and Arnor bend their knees before me.\n\nI am Isildur Bonaparte, first emperor of Númenor after the event, a genius in many fields by the grace of Eru Ilúvatar. With your help, we can spread the Novelist faith to every corner of this world.",
+			"show-surename": "true",
 			"start":
 			{
 				"tech": ["divination", "stonecutting", "drama"],
@@ -143,7 +144,7 @@
 				"forest": ["Mirkwood", "?"],
 				"heath": ["Calormen", "?"],
 				"plain": ["?", "?"],
-				"desert": ["?", "?"],
+				"desert": ["Sahara", "?"],
 				"plateau": ["?", "?"],
 				"valley": ["?", "?"],
 				"ocean": ["Atlantic Ocean", "Eastern Ocean"],
@@ -171,7 +172,8 @@
 			"founder": "Viktor",
 			"first-ruler_comment": "First ruler of the nation of the nation.",
 			"first-ruler": "Edmund",
-			"story": "This is a great nation.",
+			"story": "The blood of Serbs, Croatians, Bulgarians, Slovenians, Bosnians and Albanian has been boiling since the beginning of times. It was my duty end the numberless rebellions and strengthen the authority of the emperors of Yugoslavia.\n\nWe had not only cultural but religious difference too. With the help of my brothers, Zdik and Gerard, we harmonized the different faiths of the empire and formed the Yugoslavist Triumvirate.\n\nThe new faith seems to calm down all the nations of Yugoslavia. While it works like a miracle for now, I can feel that my descendants will need to fight to keep religion strong and the empire together.\n\nI am Car Edmund of Yugoslavia, some call me 'the Holy'. Now that infights of our nation stopped, with you on my side, we can focus our strength against the numerous outside threats.",
+			"show-surename": "true",
 			"start":
 			{
 				"tech": ["ironworking", "trapping", "military drill"],
@@ -326,7 +328,8 @@
 			"founder": "Winnifred",
 			"first-ruler_comment": "First ruler of the nation of the nation.",
 			"first-ruler": "Winnifred",
-			"story": "This is a great nation.",
+			"story": "I am Lord Protector Winnifred Strongboar, seventh of this rank, guard of the throne by the grace of the Queen.\n\nMy real reign just have started. Until this day, I have been fighting in the longest civil war of our nation, known as the Turbolent Years. But I captured the traitor named Fragan Knights and executed him. My victory is now unquestionable.\n\nOur nation has been following the ways of Aleister Crowley since the Event. However, his teachings were written when the Queen were still in her mortal form and ruled our nation personally. I am the first leader of Britannia who embraced the Reformed Thelema faith.\n\nWhile the fights on the battlefields are over, the politics here can be as deadly as swords and arrows. I will need all your help to lead Britannia to her well deserved greatness.",
+			"show-surename": "true",
 			"start":
 			{
 				"tech": ["divination", "administration", "sovereignty"],

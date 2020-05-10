@@ -43,6 +43,7 @@
         <EffectPlayer>EFFECTPLAYER_NATION_NUMENOR</EffectPlayer>
         <MapElementNames>MAP_ELEMENT_NAMES_FOR_NUMENOR</MapElementNames>
         <iFirstBuildPercent>40</iFirstBuildPercent>
+		<bShowSurname>1</bShowSurname>
         <aiStartUnit>
             <Pair>
                 <zIndex>UNIT_WARRIOR</zIndex>
@@ -702,7 +703,13 @@
 			<zValue>CHARACTER_PORTRAIT_GREECE_LEADER_MALE_15</zValue>
 			<zValue>CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_15</zValue>
 		</aeCharacterPortraits>
-        <zStory>This is a great nation.</zStory>
+        <zStory>Some call them just tales, some call them madness, but the teachings of Novelism are the truth and they united our nation once more.
+
+Living a normal and eventless life, one night the Star Prince came to me in my dream. He enlightened me that I am from the blood of Charlemagne and Aragorn Napoleon Bonaparte.
+
+Soon I became the ruler of Pas-de-Calais. I called all the Novelist warriors to my aid and with the assistance of Aslan and D'Artagnan, we made all the lord of Gondor and Arnor bend their knees before me.
+
+I am Isildur Bonaparte, first emperor of Númenor after the event, a genius in many fields by the grace of Eru Ilúvatar. With your help, we can spread the Novelist faith to every corner of this world.</zStory>
     </Entry>
     <Entry>
         <zType>NATION_YUGOSLAVIA</zType>
@@ -720,6 +727,7 @@
         <EffectPlayer>EFFECTPLAYER_NATION_YUGOSLAVIA</EffectPlayer>
         <MapElementNames>MAP_ELEMENT_NAMES_FOR_YUGOSLAVIA</MapElementNames>
         <iFirstBuildPercent>40</iFirstBuildPercent>
+		<bShowSurname>1</bShowSurname>
         <aiStartUnit>
             <Pair>
                 <zIndex>UNIT_WARRIOR</zIndex>
@@ -937,7 +945,13 @@
 			<zValue>CHARACTER_PORTRAIT_GREECE_LEADER_MALE_15</zValue>
 			<zValue>CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_15</zValue>
 		</aeCharacterPortraits>
-        <zStory>This is a great nation.</zStory>
+        <zStory>The blood of Serbs, Croatians, Bulgarians, Slovenians, Bosnians and Albanian has been boiling since the beginning of times. It was my duty end the numberless rebellions and strengthen the authority of the emperors of Yugoslavia.
+
+We had not only cultural but religious difference too. With the help of my brothers, Zdik and Gerard, we harmonized the different faiths of the empire and formed the Yugoslavist Triumvirate.
+
+The new faith seems to calm down all the nations of Yugoslavia. While it works like a miracle for now, I can feel that my descendants will need to fight to keep religion strong and the empire together.
+
+I am Car Edmund of Yugoslavia, some call me 'the Holy'. Now that infights of our nation stopped, with you on my side, we can focus our strength against the numerous outside threats.</zStory>
     </Entry>
     <Entry>
         <zType>NATION_BRITANNIA</zType>
@@ -955,6 +969,7 @@
         <EffectPlayer>EFFECTPLAYER_NATION_BRITANNIA</EffectPlayer>
         <MapElementNames>MAP_ELEMENT_NAMES_FOR_BRITANNIA</MapElementNames>
         <iFirstBuildPercent>40</iFirstBuildPercent>
+		<bShowSurname>1</bShowSurname>
         <aiStartUnit>
             <Pair>
                 <zIndex>UNIT_SLINGER</zIndex>
@@ -1537,6 +1552,12 @@
 			<zValue>CHARACTER_PORTRAIT_GREECE_LEADER_MALE_15</zValue>
 			<zValue>CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_15</zValue>
 		</aeCharacterPortraits>
-        <zStory>This is a great nation.</zStory>
+        <zStory>I am Lord Protector Winnifred Strongboar, seventh of this rank, guard of the throne by the grace of the Queen.
+
+My real reign just have started. Until this day, I have been fighting in the longest civil war of our nation, known as the Turbolent Years. But I captured the traitor named Fragan Knights and executed him. My victory is now unquestionable.
+
+Our nation has been following the ways of Aleister Crowley since the Event. However, his teachings were written when the Queen were still in her mortal form and ruled our nation personally. I am the first leader of Britannia who embraced the Reformed Thelema faith.
+
+While the fights on the battlefields are over, the politics here can be as deadly as swords and arrows. I will need all your help to lead Britannia to her well deserved greatness.</zStory>
     </Entry>
 </Root>
