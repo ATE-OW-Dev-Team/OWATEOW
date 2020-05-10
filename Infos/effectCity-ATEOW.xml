@@ -78,7 +78,7 @@
 	</Entry>
 	<Entry>
 		<zType>EFFECTCITY_NATION_NUMENOR</zType>
-		<Name>TEXT_EFFECTCITY_NATION_ASSYRIA</Name>
+		<Name>TEXT_EFFECTCITY_NATION_NUMENOR</Name>
 		<SourceNation>NATION_NUMENOR</SourceNation>
 		<aiYieldRateMilitary>
 			<Pair>
@@ -107,7 +107,7 @@
 	</Entry>
 	<Entry>
 		<zType>EFFECTCITY_NATION_BRITANNIA</zType>
-		<Name>TEXT_EFFECTCITY_NATION_ASSYRIA</Name>
+		<Name>TEXT_EFFECTCITY_NATION_BRITANNIA</Name>
 		<SourceNation>NATION_BRITANNIA</SourceNation>
 		<aiYieldRatePopulation>
 			<Pair>
@@ -122,7 +122,7 @@
 	</Entry>
 	<Entry>
 		<zType>EFFECTCITY_NATION_YUGOSLAVIA</zType>
-		<Name>TEXT_EFFECTCITY_NATION_ASSYRIA</Name>
+		<Name>TEXT_EFFECTCITY_NATION_YUGOSLAVIA</Name>
 		<SourceNation>NATION_YUGOSLAVIA</SourceNation>
 		<iUnitXP>50</iUnitXP>
 	</Entry>
