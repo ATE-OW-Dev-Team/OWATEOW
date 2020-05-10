@@ -701,7 +701,7 @@ def generate_goal_file(data):
 def generate_bonus(unit):
     return(f"""
 	<Entry>
-		<zType>BONUS_TECH_{dashandupper(unit['name'])}</zType>
+		<zType>BONUS_TECH_{dashandupper(unit['name'])}_UNIT</zType>
 		<aiUnits>
 			<Pair>
 				<zIndex>UNIT_{dashandupper(unit['name'])}</zIndex>
@@ -843,7 +843,7 @@ def generate_tech(unit, nation):
     return(f"""
 	<Entry>
 		<zType>TECH_{dashandupper(unit["name"])}_BONUS</zType>
-		<zName>Free {unit["name"].capitalise()}</zName>
+		<zName>Free {unit["name"].capitalize()}</zName>
 		<zIconName>UNIT_{dashandupper(unit["icon"])}</zIconName>
 		<BonusDiscover>BONUS_TECH_{dashandupper(unit["name"])}_UNIT</BonusDiscover>
 		<iCost>{'1600' if int(unit['rank']) == 2 else '200'}</iCost>
@@ -890,7 +890,7 @@ def generate_tech_file(data):
 	</Entry>"""
     for i in data['nations']:
         for o in data['nations'][i]['units']:
-            output += generate_goal(data['nations'][i]['units'][o], i)
+            output += generate_tech(data['nations'][i]['units'][o], i)
     output = output + "\n</Root>\n"
     file = open(f"{data['file-preffix']}tech-unit{data['file-suffix']}.xml", "w")
     file.write(output)
@@ -955,6 +955,7 @@ def main():
     generate_text_unit_file(data)
     generate_goal_file(data)
     generate_bonus_file(data)
+    generate_tech_file(data)
     generate_text_effect_player_file(data)
     generate_text_effect_city_file(data)
 

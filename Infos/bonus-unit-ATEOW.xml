@@ -119,7 +119,7 @@
 		<AddCourtierGender/>
 	</Entry>
 	<Entry>
-		<zType>BONUS_TECH_ARNORIAN_PALADIN</zType>
+		<zType>BONUS_TECH_ARNORIAN_PALADIN_UNIT</zType>
 		<aiUnits>
 			<Pair>
 				<zIndex>UNIT_ARNORIAN_PALADIN</zIndex>
@@ -128,7 +128,7 @@
 		</aiUnits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_TECH_GONDORIAN_PALADIN</zType>
+		<zType>BONUS_TECH_GONDORIAN_PALADIN_UNIT</zType>
 		<aiUnits>
 			<Pair>
 				<zIndex>UNIT_GONDORIAN_PALADIN</zIndex>
@@ -137,7 +137,7 @@
 		</aiUnits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_TECH_BULGARIAN_GUSAR</zType>
+		<zType>BONUS_TECH_BULGARIAN_GUSAR_UNIT</zType>
 		<aiUnits>
 			<Pair>
 				<zIndex>UNIT_BULGARIAN_GUSAR</zIndex>
@@ -146,7 +146,7 @@
 		</aiUnits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_TECH_SERBIAN_GUSAR</zType>
+		<zType>BONUS_TECH_SERBIAN_GUSAR_UNIT</zType>
 		<aiUnits>
 			<Pair>
 				<zIndex>UNIT_SERBIAN_GUSAR</zIndex>
@@ -155,7 +155,7 @@
 		</aiUnits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_TECH_HIGHLANDER_LONGBOWMAN</zType>
+		<zType>BONUS_TECH_HIGHLANDER_LONGBOWMAN_UNIT</zType>
 		<aiUnits>
 			<Pair>
 				<zIndex>UNIT_HIGHLANDER_LONGBOWMAN</zIndex>
@@ -164,7 +164,7 @@
 		</aiUnits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_TECH_RED_COAT</zType>
+		<zType>BONUS_TECH_RED_COAT_UNIT</zType>
 		<aiUnits>
 			<Pair>
 				<zIndex>UNIT_RED_COAT</zIndex>

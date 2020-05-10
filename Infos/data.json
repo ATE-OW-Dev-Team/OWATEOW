@@ -117,7 +117,7 @@
 					"family": "Patrons",
 					"rank": "2",
 					"tech1": "STRATEGY",
-					"tech2": "STIPPURS",
+					"tech2": "STIRRUPS",
 					"icon": "CATAPHRACT"
 				}
 			},
@@ -273,7 +273,7 @@
 					"family": "Riders",
 					"rank": "2",
 					"tech1": "STRATEGY",
-					"tech2": "STIPPURS",
+					"tech2": "STIRRUPS",
 					"icon": "CATAPHRACT_ARCHER"
 				}
 			},
