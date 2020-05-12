@@ -23,12 +23,15 @@ def zvalues(values, prefix):
             result = result + f"			<zValue>{i}</zValue>\n"
     return(result)
 
+def get_roman(nation):
+	return("ROMAN" if dashandupper(nation) == "ROME" else nation)
+
 def get_portraits(nation):
     portraits = get_asset(nation, 'portraits')
     if type(portraits) == str:
         value, portraits = portraits, []
         for i in range(1, 16):
-            portraits.append(f"{value}_LEADER_MALE_{'0' if i < 10 else ''}{i}")
+            portraits.append(f"{get_roman(value)}_LEADER_MALE_{'0' if i < 10 else ''}{i}")
             portraits.append(f"{value}_LEADER_FEMALE_{'0' if i < 10 else ''}{i}")
     return(zvalues(portraits, "CHARACTER_PORTRAIT_"))
 

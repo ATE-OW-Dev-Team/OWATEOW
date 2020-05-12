@@ -1,7 +1,8 @@
 {
+	"file-preffix-suffix_comment": "All the newly generated files will be called <preffix><filename><suffix>.xml. You should define at least one of them.",
 	"file-preffix": "",
 	"file-suffix": "-ATEOW",
-	"output-folder": "output",
+	"nations_comment": "List of nations to be generated. You can define any number of them.",
 	"nations":
 	{
 		"Numenor":
@@ -16,28 +17,38 @@
 			"founder": "Isildur",
 			"first-ruler_comment": "First ruler of the nation of the nation.",
 			"first-ruler": "Isildur",
+			"story_comment": "This one is displayed at the bio tab.",
 			"story": "Some call them just tales, some call them madness, but the teachings of Novelism are the truth and they united our nation once more.\n\nLiving a normal and eventless life, one night the Star Prince came to me in my dream. He enlightened me that I am from the blood of Charlemagne and Aragorn Napoleon Bonaparte.\n\nSoon I became the ruler of Pas-de-Calais. I called all the Novelist warriors to my aid and with the assistance of Aslan and D'Artagnan, we made all the lord of Gondor and Arnor bend their knees before me.\n\nI am Isildur Bonaparte, first emperor of Númenor after the event, a genius in many fields by the grace of Eru Ilúvatar. With your help, we can spread the Novelist faith to every corner of this world.",
+			"show-surename_comment": "If set to 'true', people's family name will be displayed.",
 			"show-surename": "true",
+			"start_comment": "All the starting stuff.",
 			"start":
 			{
+				"tech_comment": "List of starting technologies.",
 				"tech": ["divination", "stonecutting", "drama"],
+				"tech_comment": "Starting unit, which will be given onece the first city is founded.",
 				"unit":
 				{
+					"type_comment": "Normally slinger or warrior.",
 					"type": "warrior",
+					"value_comment": "You can give multiple ones.",
 					"value": "1"
 				},
+				"first-build_comment": "The starting city will be building this stuff after founding. It's basicly the same for all nations.",
 				"first-build":
 				{
 					"type_comment": "Needs full name because it can be building too.",
 					"type": "unit_settler",
 					"percent": "40"
 				},
+				"law_comment": "As I was lazy, it only supports one law. It should have the order type and value should be the name of the starting succession type.",
 				"law":
 				{
 					"type": "order",
 					"value": "primogeniture"
 				}
 			},
+			"families_comment": "The families of the nation. All basegame nations have 4, but you can define any number of them.",
 			"families":
 			{
 				"Bonaparte":
@@ -45,7 +56,9 @@
 					"name": "Bonaparte",
 					"plural": "Bonapartes",
 					"adjective": "Bonaparte",
+					"class_comment": "You can give any basegame type or you owns too.",
 					"class": "Patrons",
+					"color_comment": "Color of the family. Should be in RGB format.",
 					"color": "#0d6793"
 				},
 				"Belgium-Orange-Nassau-Weilburg":
@@ -73,6 +86,8 @@
 					"color": "#e96060"
 				}
 			},
+			"shrines_comment": "List of shrine, shown as special improvements in game. All basegame nations have 4, but you can define any number of them. The bellow list in the possible type value. If you want to create your own type, add one fewer here and make the new one is a separate improvement file.",
+			"shrines_list_comment": ["war", "fire", "sun", "water", "love", "underworld", "healing", "kingship", "hearth", "hunting"],
 			"shrines":
 			{
 				"Eru Iluvatar":
@@ -96,6 +111,7 @@
 					"type": "water"
 				}
 			},
+			"units_comment": "These lines will assign most of the stuff needed for the unit (name, ambition, bonus card), but you need to create the actual unit file.",
 			"units":
 			{
 				"Arnorian Paladin":
@@ -103,9 +119,13 @@
 					"name": "Arnorian Paladin",
 					"singular": "an Arnorian Paladin",
 					"plural": "Arnorian Paladins",
+					"family_comment": "The family that will be happy if you complete the ambition related to this unit.",
 					"family": "Patrons",
+					"rank_comment": "Rank 1 is the first, rank 2 is the second you can get.",
 					"rank": "1",
+					"tech1_comment": "The tech after which you can get an ambition to build these units.",
 					"tech1": "HUSBANDRY",
+					"tech2_comment": "The tech which will give a bonus card to get a free unit.",
 					"tech2": "RAMPARTS",
 					"icon": "HORSEMAN"
 				},
@@ -121,20 +141,20 @@
 					"icon": "CATAPHRACT"
 				}
 			},
-			"assets_comment": "Different visual assets of the nation.",
+			"assets_comment": "Different visual assets of the nation. You can either use basegame ones or you can use your owns, if the magical ways of adding assets are finally discovered.",
 			"assets":
 			{
-				"template_comment": "Template is the only mandatory element. If you leave out the other values, they will be filled up by the this value.",
+				"template_comment": "Template is the only mandatory element. If you delete the other values, they will be filled up by the this value.",
 				"template": "Rome",
 				"crest": "Rome",
 				"capital": "Rome",
 				"city": "Rome",
 				"urban": "Rome",
 				"background": "Assyria",
-				"portraits_comment": "Character potraits. It can also be a list if you want different ones from multiple nations.",
+				"portraits_comment": "Character potraits. It can also be a list if you want different ones from multiple nations. Roman male portraits are called CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_<NUMBER> which should be CHARACTER_PORTRAIT_ROME_LEADER_MALE_<NUMBER> as every other one, the scripts handles this.",
 				"portraits": "Greece"
 			},
-			"mapelements_comment": "Naming of map elements.",
+			"mapelements_comment": "Naming of map elements, so if this nation discovers a river, it will be named by one of the entries from the river list. (I'm not certain if it's random or it will give them in order.",
 			"mapelements":
 			{
 				"volcano": ["Orodruin", "?"],
@@ -155,8 +175,11 @@
 			},
 			"names":
 			{
+				"male_comment": "List of possible male firstnames. You don't need to add that many.",
 				"male":	["Édouard", "Émile", "Éomer", "Éric", "Étienne", "Abbé Faria", "Abraracourcix", "Adamaď", "Adrien", "Aimery", "Aiwendil", "Alain", "Alatar", "Albert", "Aldarion", "Alexandre", "Alexis", "Alphonse", "Amandil", "Amaury", "Amédée", "Amroth", "Anárion", "André", "Anthony", "Antoine", "Arador", "Aragorn", "Aramis", "Arathorn", "Arnaud", "Arnault", "Aronnax", "Arthur", "Arvedui", "Astérix", "Atanamir", "Atanatar", "Athos", "Aubry", "Axel", "Azaghâl", "Balin", "Bandobras", "Barahir", "Barbicane", "Bard", "Barthélémi", "Baudouin", "Beaufort", "Beleg", "Benjamin", "Benoît", "Bëor", "Beorn", "Beregond", "Beren", "Bérenger", "Bernard", "Bertrand", "Bifur", "Bilbon", "Bill", "Blaise Pascal", "Bofur", "Bombur", "Bór", "Boromir", "Brandir", "Bree", "Brego", "Bruno", "Caderousse", "Cambacérès", "Camille Desmoulins", "Caspian", "Cédric", "Celebrimbor", "Celeborn", "Charles", "Chasseur-de-Truffes", "Chirac", "Christian", "Christophe", "Cirion", "Ciryatan", "Claude", "Clemenceau", "Clément", "Clerval", "Clopin", "Clotaire", "Clovis", "Coluche", "Condorcet", "Conseil", "Coriakin", "Cousteau", "Curumo", "Cyrus", "Dakkar", "D'Artagnan", "Dáin", "Damien", "Daniel", "Dantès", "Danton", "David", "De Gaulle", "Denethor", "Denis", "Descartes", "Didier", "Digory", "Dior", "Dominique", "Dori", "Drinian", "Durkheim", "Durin", "Dwalin", "Eärendil", "Eärnil", "Eärnur", "Ecthelion", "Edmond", "Egalmoth", "Eldacar", "Eldarion", "Elendil", "Elfhelm", "Elrond", "Elros", "Emile", "Emmanuel", "Enjolras", "Enzo", "Eorl", "Erkenbrand", "Erik", "Eudes", "Eustace", "Fabien", "Fabrice", "Fantasio", "Faramir", "Fauchelevent", "Fëanor", "Felaróf", "Félix Faure", "Fernand", "Fíli", "Finarfin", "Fingolfin", "Fingon", "Flopin", "Florian", "Franck", "François", "Frankenstein", "Frédégar", "Frédéric", "Frodon", "Frollo", "Gabriel", "Galdor", "Gandalf", "Gargamel", "Gaston", "Gauthier", "Gavroche", "Geoffroy", "Georges", "Gérard", "Géraud", "Gerontius", "Gilbert", "Gil-galad", "Gilles", "Gimli", "Glóin", "Glorfindel", "Godefroy", "Gringoire", "Gripoil", "Grougaloragran", "Guillaume", "Guy", "Gwaihir", "Haddock", "Halbarad", "Haldir", "Háma", "Harbert", "Helm", "Henri", "Herbert", "Hervé", "Horn", "Huan", "Hugo", "Huor", "Húrin", "Hyarmendacil", "Idéfix", "Imrahil", "Isildur", "Jacques", "Jacques Yves", "Jaspert", "Javert", "Jean", "Jean-Baptiste", "Jean-Claude", "Jean-Luc", "Jean-Pierre", "Jeanvaljean", "Jérémy", "Jérôme", "Joël", "Joseph", "Jules", "J. T. Maston", "Jules César", "Julien", "Kevin", "Kíli", "Lafayette", "Lanfeust", "Laurent", "Legolas", "Lidenbrock", "Léon", "Léonard", "Louis", "Lucas", "Lucien", "Ludovic", "Mablung", "Maedhros", "Malefique", "Marc", "Marcel", "Marquais", "Mathieu", "Maurice", "Maxime", "Meriadoc", "Michel", "Minastir", "Mitterrand", "Mohammed", "Molière", "Montaigne", "Montesquieu", "Morrel", "Myriel", "Napoléon", "Ned Land", "Némo", "Nicholl", "Nicolas", "Nivacrin", "Noirtier de Villefort", "Nori", "Numérobis", "Obélix", "Ocatarinetabellatchitchix", "Óin", "Olivier", "Olórin", "Ori", "Orodreth", "Orophin", "Ostoher", "Paladin", "Pallando", "Panoramix", "Passepartout", "Pasteur", "Patrick", "Paul", "Pencroff", "Peregrďn", "Peter", "Phileas Fogg", "Philippe", "Phśbus", "Picsou", "Pierre", "Pompidou", "Pontmercy", "Porthos", "Puzzle", "Quasimodo", "Quentin", "Radagast", "Ramandu", "Raoul", "Raphaël", "Raymond", "Raynaud", "Renaud", "Renart", "René", "Richard", "Rillian", "Ripitchip", "Roland", "Robert", "Robin", "Robur", "Roger", "Roheryn", "Romain", "Rousseau", "Ruel", "Saint-Just", "Samsagace", "Sartre", "Serge", "Shasta", "Siéyès", "Simon", "Sméagol", "Sodom", "Spirou", "Stéphane", "Sylvain", "Sylvebarbe", "Thengel", "Théo", "Théoden", "Théodred", "Thibault", "Thierry", "Thingol", "Thomas", "Thorgal", "Thorin", "Thorondor", "Thráin", "Thranduil", "Thrór", "Tintin", "Tirian", "Titeuf", "Tocqueville", "Tom Bombadil", "Tréville", "Tristepin", "Trompillon", "Tumnus", "Tuor", "Turgon", "Túrin", "Valacar", "Vercingétorix", "Valéry Giscard d'Estaing", "Victor", "Vincent", "Voltaire", "Waldman", "Walton", "Xavier", "Yugo", "Yves", "Zidane", "Zinédine", "Zola"],
+				"female_comment": "List of possible female firstnames. You don't need to add that many.",
 				"female": ["Éléonore", "Élodie", "Émilie", "Éowyn", "Aaricia", "Adèle", "Aerin", "Agathe", "Agnès", "Alice", "Alberta", "Aliénor", "Alix", "Amalie", "Amarië", "Amélie", "Anaďs", "Anastasie", "Ancalimë", "Andrée", "Anne", "Annick", "Annie", "Antoinette", "Aouda", "Aredhel", "Arwen", "Audrey", "Aurélie", "Aurore", "Baie d'Or", "Béatrice", "Belladonna", "Benoîte", "Bérengère", "Bernadette", "Blanche", "Bonemine", "Brigitte", "Camille", "Caroline", "Catherine", "Cécile", "Celebrían", "Céline", "Cendrillon", "Chantal", "Charlotte", "Chloé", "Christelle", "Christine", "Cixi", "Claire", "Claudette", "Claudine", "Cléopâtre", "Clotilde", "Colette", "Constance", "Corinne", "Cosette", "Dalida", "Danielle", "Delphine", "Denise", "Dís", "Dominique", "Eärwen", "Edith", "Elanor", "Elely", "Elenwë", "Eliane", "Elisabeth", "Elise", "Elwing", "Emma", "Emmanuelle", "Éponine", "Erendis", "Esméralda", "Estella", "Eugénie", "Eve", "Evangelyne", "Evelyne", "Falbala", "Fantine", "Fatima", "Finduilas", "Fleur-de-Lys", "Florence", "Françoise", "Galadriel", "Geneviève", "Germaine", "Georgette", "Gilraen", "Ginette", "Gisèle", "Gwendolen", "Gwendolyne", "Haleth", "Haydée", "Hélène", "Helen", "Héloise", "Henriette", "Hermione", "Hild", "Hwin", "Idril", "Indis", "Ioreth", "Isabelle", "Jacqueline", "Javotte", "Jeanne", "Jeanne d'Arc", "Jeannine", "Jill", "Joséphine", "Josette", "Josiane", "Judith", "Julie", "Julienne", "Juliette", "Justine", "Karine", "Laetitia", "Lalaith", "Laura", "Laurence", "Laurette", "Léa", "Lilliandil", "Lobelia", "Lothíriel", "Louise", "Louve", "Lucie", "Lucienne", "Lucy", "Lúthien", "Madeleine", "Malefique", "Manon", "Marcelle", "Marine", "Marion", "Margot", "Marguerite", "Maria", "Marie", "Marie-Antoinette", "Marie-Curie", "Marie-Louise", "Marie-Thérèse", "Martine", "Mathilde", "Meg", "Mélanie", "Melian", "Mélusine", "Mercédès", "Michèle", "Miranda", "Míriel", "Mireille", "Monique", "Nadia", "Nadine", "Nathalie", "Nerdanel", "Nicole", "Nienor", "Níniel", "Odette", "Patricia", "Paulette", "Pauline", "Polly", "Primula", "Prunaprismia", "Raymonde", "Renée", "Rían", "Rose", "Sandrine", "Sarah", "Ségolène", "Silmarien", "Simone", "Solène", "Sophie", "Stéphanie", "Suzanne", "Sybille", "Sylvie", "Telperien", "Théodwyn", "Thérèse", "Tinúviel", "Vairë", "Valérie", "Vanimeldë", "Varda", "Véronique", "Virginie", "Yavanna", "Yvette", "Yvonne"],
+				"city_comment": "City names will be given in order. So your capital will be always the first one, your second city the second and so on. You should give at least around 20.",
 				"city":	["Paris", "Marseille", "Luxembourg", "Lyon", "Poitiers", "Brussels", "Bordeaux", "Amsterdam", "Dijon", "Antwerp", "Montpellier", "Lille", "Toulouse", "Nice", "Utrecht", "Strasbourg", "Annecy", "Gent", "Villeurbanne", "Le Havre", "Eindhoven"]
 			}
 		},
